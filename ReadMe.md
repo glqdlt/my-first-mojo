@@ -13,17 +13,17 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <scope>test</scope>
                     <in>
-                        C:\Users\user\Desktop\0.PNG
+                        C:/Users/user/Desktop/0.PNG
                     </in>
                     <out>
                         ${project.basedir}/src/main/resources/0.PNG
                     </out>
                 </configuration>
             </plugin>
-
+            
         </plugins>
+</build>
 ```
 
 
