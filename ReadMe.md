@@ -25,3 +25,12 @@
 
         </plugins>
 ```
+
+
+### 주의사항
+
+아티팩트 빌드 타입을 maven-plugin 으로 해야한다.
+
+![](.ReadMe_images/04aca0ef.png)
+
+
