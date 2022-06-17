@@ -14,11 +14,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
+
 /**
  * @author glqdlt
  */
-@Mojo(name = "dependency-counter", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
-public class DependencyCounterMojo extends AbstractMojo {
+@Mojo(name = "compile-before-resource-copy", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
+public class ResourceCopyMojo extends AbstractMojo {
 
     @Parameter(defaultValue = "${project}", required = true, readonly = true)
     MavenProject project;
